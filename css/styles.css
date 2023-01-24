@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Rubik+Vinyl&display=swap");
+
+/*  GENERALES */
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0%;
+      font-family: "Roboto", sans-serif;
+}
+body {
+      max-width: 1240px;
+      margin: 0 auto;
+      background-color: rgb(86, 86, 86);
+}
+div.container {
+      background-color: rgb(231, 234, 234);
+      padding: 10px;
+}
+a {
+      text-decoration: none;
+      color: white;
+}
+ul {
+      list-style: none;
+}
+
+/* HEADER HEADER-CONTAINER */
+header.header-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 115px;
+      /* margin-bottom: 5px; */
+      color: white;
+      background-color: #304153;
+}
+header.header-container nav.nav-container {
+      width: 100%;
+}
+header.header-container nav.nav-container ul {
+      display: flex;
+      margin: 20px 0;
+      justify-content: space-around;
+}
+header.header-container nav.nav-container ul li {
+      margin: 0 5px;
+      font-size: 20px;
+      text-align: center;
+}
+header.header-container nav.nav-container ul li p {
+      margin-top: 10px;
+      font-size: 12px;
+      visibility: hidden;
+}
+/* FIN HEADER HEADER-CONTAINER */
+
+main.main-container {
+      display: flex;
+}
+
+/* NAV NAV-CONTAINER */
+main.main-container nav.nav-container {
+      width: 250px;
+      background-color: #304153;
+}
+main.main-container nav.nav-container ul.main li {
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+}
+/* FIN NAV NAV-CONTAINER*/
+
+/* SECTION DETAILS*/
+main.main-container section.details {
+      width: 100%;
+      font-size: 12px;
+}
+main.main-container section.details div.details-container {
+      margin-left: 50px;
+}
+main.main-container section.details div.details-container h3 {
+      margin: 20px 0;
+}
+main.main-container section.details div.details-container p {
+      margin: 10px 50px 5px;
+}
+main.main-container section.details div.details-container ul li {
+      margin: 10px 50px 5px;
+}
+/* FIN SECTION DETAILS*/
+
+/* SECTION DATA */
+main.main-container section.data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 350px;
+      background-color: #304153;
+      color: white;
+}
+main.main-container section.data div.image {
+      margin-top: 25px;
+}
+main.main-container section.data div.image img {
+      border-radius: 70px;
+}
+main.main-container section.data div.details {
+      font-size: 12px;
+      padding: 10px;
+}
+/* FIN SECTION DATA */
+
+footer.footer-container div.footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 30px;
+}
